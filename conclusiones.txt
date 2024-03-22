@@ -1,0 +1,8 @@
+Concluciones Test-Automation-APIS https://www.demoblaze.com/
+
+Después de revisar el servicio de APIs del sitio web https://www.demoblaze.com/, se pueden destacar las siguientes conclusiones técnicas:
+
+-Manejo de Códigos de Estado: El servicio actualmente devuelve un código de estado HTTP 200 para todas las respuestas, incluyendo aquellas con errores. Esto no sigue las mejores prácticas, ya que los códigos de estado deben reflejar con precisión el resultado de la solicitud.
+-Importancia de los Asserts: Debido a la respuesta uniforme del servidor, es esencial implementar aserciones en las pruebas automatizadas para validar las respuestas basándose en el contenido y no solo en el código de estado.
+-Propuesta de Mejora: Una mejora significativa sería implementar una gestión adecuada de los códigos de estado HTTP para diferenciar entre respuestas exitosas y erróneas, facilitando así la automatización y el monitoreo de las APIs.
+-Estas conclusiones apuntan a la necesidad de mejorar el servicio de APIs para alinearse con las prácticas estándar y proporcionar una mejor experiencia tanto para los desarrolladores como para los usuarios finales del sistema.
